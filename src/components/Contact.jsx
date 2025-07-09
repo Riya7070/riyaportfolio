@@ -50,12 +50,12 @@ const Contact = () => {
         </div>
 
         <div className="mt-6 flex justify-center">
-  <a
+  {/* <a
     href={`mailto:${CONTACT.email}`}
     className="bg-[#B8860B] hover:bg-[#8C6B1F] text-black font-semibold py-2 px-6 rounded-full shadow-md transition-all duration-300"
   >
     Contact Me
-  </a>
+  </a> */}
 </div>
 
       </div>
