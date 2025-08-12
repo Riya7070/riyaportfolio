@@ -109,6 +109,8 @@ export const PROJECTS = [
       "A simple Node.js app for managing personal expenses: log new expenses, retrieve them by category or date, and analyze spending patterns. Features include spending analysis and daily/weekly/monthly summaries via cron jobs.",
     technologies: ["Node.js"],
     github: "https://github.com/Riya7070/Personal-expense-tracker",
+  demo: "https://easespend.vercel.app"
+
   },
 ];
 

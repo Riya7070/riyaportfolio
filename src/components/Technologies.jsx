@@ -3,7 +3,7 @@ import { SiFlask } from "react-icons/si";             // Flask
 import { DiJava, DiMongodb } from "react-icons/di";              // Java
 import { FaCss3Alt, FaPython,FaNodeJs, FaGitAlt } from "react-icons/fa";            // Python
 import { SiJavascript } from "react-icons/si";  // Blockchain
-import { SiTailwindcss } from "react-icons/si";             // MySQL
+// import { SiTailwindcss } from "react-icons/si";             // MySQL
 import { SiTableau } from "react-icons/si";           // Tableau
 import { FaHtml5} from "react-icons/fa";           // Tableau
 import {animate, motion} from "framer-motion";
@@ -115,7 +115,7 @@ const Technologies = () => {
   <p className="mt-2 text-white text-sm">JavaScript</p>
 </motion.div>
 
-<motion.div 
+{/* <motion.div 
   variants={iconVariants(4)}
   initial="initial"
   animate="animate"
@@ -123,7 +123,7 @@ const Technologies = () => {
 >
   <SiTailwindcss className="text-7xl text-[#38BDF8]" />
   <p className="mt-2 text-white text-sm">Tailwind</p>
-</motion.div>
+</motion.div> */}
 
 <motion.div 
   variants={iconVariants(6)}
